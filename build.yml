@@ -1,0 +1,29 @@
+#sdk: "C:/MotorolaRhoMobileSuite5.0.2/ruby/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2"
+sdkversion: "5.0.0"
+name: "AssetInspector"
+version: 1.0
+vendor: "rhomobile"
+build: "debug"
+applog: "rholog.txt"
+iphone:
+  configuration: "Release"
+  sdk: "iphonesimulator7.0"
+  provisionprofile: 
+  codesignidentity: "iPhone Developer"
+  entitlements: 
+  BundleIdentifier: "com.rhomobile.assetinspector"
+  BundleURLScheme: "assetinspector"
+wp8:
+  productid: "f73efa70-5db5-0132-4738-000c29b43efe"
+android:
+  manifest_template: "AndroidManifest.erb"
+  version: "4.0.3"
+  android_title: 0
+wm: 
+extensions: 
+#sdk: "MC3000c50b (ARMV4I)"
+#sdk: "Windows Mobile 6.5.3 Professional DTK (ARMV4I)"
+  - rhoconnect-client
+app_type: "rhoelements"
+capabilities:
+  - camera
